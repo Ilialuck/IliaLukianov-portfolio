@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilialuck portfolio</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo">Ilia Lukianov</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Projects</a></li>
+                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Skills</a></li>
+                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contacts</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header__wrapper">
+            <h1 class="header__title">
+                <strong>Привет! Меня зовут <em>Илья</em></strong><br>
+                я frontend-разработчик
+            </h1>
+            <div class="header__text">
+                <p>Это мой сайт-портфолио</p>
+            </div>
+            <a href="#!" id="download-button" class="btn" onclick="downloadFile()">Download CV</a>
+        </div>
+    </header>
+    <main class="section">
+        <div class="container">
+            <h2 class="title-1">Projects</h2>
+            <ul class="projects">
+                <li class="project">
+                    <a href="https://github.com/Ilialuck/frontend-project-44">
+                        <img src="./IMG/projects/pr-1.bmp" alt="project img" class="project__img">
+                    <h3 class="project__title">Консольная игра</h3>
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/Ilialuck/frontend-project-46">
+                      <img src="./IMG/projects/pr-2.bmp" alt="project img" class="project__img">
+                    <h3 class="project__title">Калькулятор отличий</h3>  
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="https://frontend-project-11-jet-alpha.vercel.app/">
+                       <img src="./IMG/projects/pr-3.bmp" alt="project img" class="project__img">
+                    <h3 class="project__title">RSS агрегатор</h3> 
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="https://ilialuck-frontend-project-12.onrender.com/login">
+                       <img src="./IMG/projects/pr-4.bmp" alt="project img" class="project__img">
+                    <h3 class="project__title">Чат (Slack analog)</h3> 
+                    </a>
+                    
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a href="https://github.com/Ilialuck"><img src="./img/icons/gitHub.svg" alt="Link"></a></li>               
+                </ul>
+                <div class="copyright">
+                    <p>© 2024 Ilia Lukianov</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
