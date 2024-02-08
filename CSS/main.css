@@ -48,6 +48,12 @@ html, body {
 .logo {
     color: var(--header-text);
     font-size: 24px;
+    transition: color 0.3s linear;
+}
+
+.logo:hover {
+    color: var(--accent);
+    filter: drop-shadow(3px 3px 10px var(--accent));
 }
 
 .nav-list {
@@ -99,9 +105,11 @@ html, body {
     text-align: center;
 }
 
+
 .header__wrapper {
     padding: 0 15px;
     max-width: 800px;
+    
 }
 
 .header__title {
@@ -144,6 +152,7 @@ html, body {
 
 .btn:hover {
     opacity: 0.8;
+    box-shadow: 0px 5px 35px rgba(93, 86, 223, 0.25);
 }
 
 .btn:active {
@@ -186,6 +195,12 @@ html, body {
     background-color: var(--white);
     box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.project:hover {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 5px 35px rgba(93, 86, 223, 0.25);
 }
 
 .project__img {
